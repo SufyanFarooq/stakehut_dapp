@@ -1,0 +1,89 @@
+.container-fluid{
+
+    background-color: black;
+    
+}
+.container{
+    color: white;
+}
+.headerDiv{
+    width: 100% !important;
+    /* background-color: black; */
+    /* height: 100vh; */
+    padding-bottom: 12rem;
+}
+/* }
+.headerDiv h1{
+    color: gold;
+    margin: 3rem 0px 2rem;
+}
+
+.headerDiv p{
+    text-align: justify;
+    color: white;
+} */
+
+.main-img{
+    height: 40vh;
+    width: auto;
+    margin: 3rem 0px 2rem;
+}
+
+.btechhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 34pt;
+    padding: 3rem 0rem 1rem;
+    color: gold;
+    text-shadow:
+    0 0 1px rgb(223, 226, 10),
+    0 0 1px rgb(219, 189, 15),
+    0 0 2px rgb(235, 231, 20),
+    0 0 2px #0fa,
+    0 0 1px #0fa,
+    0 0 5px #0fa,
+    0 0 99px #0fa,
+    0 0 1px #0fa;
+
+}
+.paragraph-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0px 2rem;
+    
+}
+.paragraph-icon{
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+.paragraph{
+    display: flex;
+    text-align: left;
+    padding: 0px 3px;
+    margin: 1px 0px;
+    /* float: left; */
+    /* color: brown; */
+    /* background-color: chartreuse; */
+    
+}
+.heading{
+    display: flex;
+    text-align: left;
+    color: gold;
+    /* float: left; */
+    /* color: brown; */
+    /* background-color: chartreuse; */
+    
+}
+
+@media (max-width: 600px) {
+    .main-img{
+        height: 40vw;
+        width: auto;
+        margin: 3rem 0px 2rem;
+    }
+      
+  }

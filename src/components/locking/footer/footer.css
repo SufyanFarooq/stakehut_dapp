@@ -1,0 +1,27 @@
+.footer{
+    /* padding: 60px 0 30px; */
+    color: white;
+}
+.footer h6{
+    padding: 0;
+    margin: 0;
+    /* line-height: 0; */
+}
+.footer a{
+    color: wheat;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 0 100px;
+    line-height: 0;
+}
+.footer a:hover{
+    color: rgb(197, 194, 194);
+    text-decoration: none;
+    padding: 0;
+    margin: 0 0 100px;
+    line-height: 0;
+}
+/* .logo{
+    padding: 0;
+    margin: 0;
+} */

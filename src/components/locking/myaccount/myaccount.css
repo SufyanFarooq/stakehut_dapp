@@ -1,0 +1,96 @@
+
+.container-fluid{
+    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.mystaked{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+    background-image: url("../../../asset/images/bg.png");
+    margin: 20px 0px;
+    border-radius: .3rem;
+}
+.mystaked .mystakedtext{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+.mystaked .mystakedvalue{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 20pt;
+    font-weight: 600;
+ }
+
+ .mystaked button{
+     width: auto;
+    margin: 20px 0px;
+    padding: 10px 20px;
+ }
+ .myrefferaltable{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: black;
+    margin: 20px 0px;
+    border-radius: .3rem;
+    color: white;
+    border: 1px solid #EDDE5D;
+ }
+ .myrefferaltable input{
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    background-color: #444444;
+    margin: 10px 0px;
+    border-radius: .3rem;
+    color: white;
+    border: 1px solid #444444;
+ }
+ .myrefferaltable .refferaltext{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 10pt;
+ }
+
+ .myrefferaltable .refferalvalue{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20pt;
+    font-weight: 600;
+    color: gold;
+
+ }
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: .3rem;
+}
+.myrefferaltable p{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10pt;
+}
+@media (max-width: 1092px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+   
+    
+}
